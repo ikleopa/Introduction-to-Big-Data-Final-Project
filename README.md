@@ -24,23 +24,13 @@ import mysql.connector
 from mysql.connector import errorcode
 from sqlalchemy import create_engine
 from sqlalchemy.sql import text
-## to remove warnings on console:
 pd.options.mode.chained_assignment = None
 import plotly_express as px
-##  pip install plotly
-## pip install plotly_express
-## import seaborn as sns
-## from pywaffle import Waffle
-## pip install pywaffle
-## Library for the Count min sketch algorithm
 from probables import CountMinSketch
-## Library for the Hyperloglog algorithm
 import hyperloglog
-## Libraries for the evaluation
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
 import scipy.stats as stats
-## Running time
 import time
 
 STEP 2.
